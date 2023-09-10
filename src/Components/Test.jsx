@@ -100,7 +100,7 @@ export const Test = () => {
 
       <button type="submit" className="btn btn-primary">Add to List</button>
     </form>
-    {<h5>Check The submitted data with:<Link to={`/test/${selector.fname}`}>{selector.fname}</Link></h5>}
+    {<h5>Check The submitted data with:<Link to={`/${selector.fname}`}>{selector.fname}</Link></h5>}
     </>
   );
 };

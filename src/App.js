@@ -18,8 +18,8 @@ const client = new QueryClient({defaultOptions:{queries:{refetchOnWindowFocus:fa
         <BrowserRouter>
           <Nav />
           <Routes>
-            <Route path="/test" element={<Test/>}/>
-            <Route path="/test/:id?" element={<Data/>}/>
+            <Route path="/" element={<Test/>}/>
+            <Route path="/:id?" element={<Data/>}/>
             <Route path="*" element={<Notfound />} />
           </Routes>
           <Footer />

@@ -16,7 +16,7 @@ export const Nav = () => {
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ml-auto">
-          <NavLink style={({isActive})=>{return {color:isActive?"green":""}}} className="navbar-brand" to="/test">FORM</NavLink>
+          <NavLink style={({isActive})=>{return {color:isActive?"green":""}}} className="navbar-brand" to="/">FORM</NavLink>
         </ul>
       </div>
     </nav>
